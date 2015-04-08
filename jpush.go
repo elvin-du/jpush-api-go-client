@@ -3,10 +3,10 @@ package jpush
 import (
 	"fmt"
 
-	"github.com/DeanThompson/jpush-api-go-client/common"
-	"github.com/DeanThompson/jpush-api-go-client/device"
-	"github.com/DeanThompson/jpush-api-go-client/httplib"
-	"github.com/DeanThompson/jpush-api-go-client/push"
+	"github.com/elvin-du/jpush-api-go-client/common"
+	"github.com/elvin-du/jpush-api-go-client/device"
+	"github.com/elvin-du/jpush-api-go-client/httplib"
+	"github.com/elvin-du/jpush-api-go-client/push"
 )
 
 // JPush 的 Golang 推送客户端
