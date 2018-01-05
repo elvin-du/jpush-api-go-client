@@ -41,7 +41,8 @@ func (nc *platformNotification) AddExtra(key string, value interface{}) {
 // Android 平台上的通知。
 type AndroidNotification struct {
 	platformNotification
-
+	BigText   string `json:"big_text,omitempty"`
+	Style     int    `json:"style,omitempty"`
 	Title     string `json:"title,omitempty"`
 	BuilderId int    `json:"builder_id,omitempty"`
 }
